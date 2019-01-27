@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957BB1F421FD04FD001CD6DB /* libQuantLib.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 957BB1F321FD04FD001CD6DB /* libQuantLib.0.dylib */; };
+		957BB1F721FD09AC001CD6DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957BB1F621FD09AC001CD6DB /* main.cpp */; };
+		957BB1FA21FD1113001CD6DB /* BrownianBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957BB1F821FD1113001CD6DB /* BrownianBridge.cpp */; };
+		957BB1FD21FDDA14001CD6DB /* Bond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957BB1FB21FDDA14001CD6DB /* Bond.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		957BB1E621FD043B001CD6DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		957BB1E821FD043B001CD6DB /* QuantlibImplementation */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = QuantlibImplementation; sourceTree = BUILT_PRODUCTS_DIR; };
+		957BB1F321FD04FD001CD6DB /* libQuantLib.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libQuantLib.0.dylib; path = ../../../usr/local/lib/libQuantLib.0.dylib; sourceTree = "<group>"; };
+		957BB1F521FD0671001CD6DB /* ql */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ql; sourceTree = "<group>"; };
+		957BB1F621FD09AC001CD6DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		957BB1F821FD1113001CD6DB /* BrownianBridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BrownianBridge.cpp; sourceTree = "<group>"; };
+		957BB1F921FD1113001CD6DB /* BrownianBridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BrownianBridge.hpp; sourceTree = "<group>"; };
+		957BB1FB21FDDA14001CD6DB /* Bond.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bond.cpp; path = ../../Bond.cpp; sourceTree = "<group>"; };
+		957BB1FC21FDDA14001CD6DB /* Bond.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Bond.hpp; path = ../../Bond.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957BB1E521FD043B001CD6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957BB1F421FD04FD001CD6DB /* libQuantLib.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957BB1DF21FD043B001CD6DB = {
+			isa = PBXGroup;
+			children = (
+				957BB1EA21FD043B001CD6DB /* QuantlibImplementation */,
+				957BB1E921FD043B001CD6DB /* Products */,
+				957BB1F221FD04FC001CD6DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		957BB1E921FD043B001CD6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957BB1E821FD043B001CD6DB /* QuantlibImplementation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957BB1EA21FD043B001CD6DB /* QuantlibImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				957BB1F621FD09AC001CD6DB /* main.cpp */,
+				957BB1F821FD1113001CD6DB /* BrownianBridge.cpp */,
+				957BB1F921FD1113001CD6DB /* BrownianBridge.hpp */,
+				957BB1FB21FDDA14001CD6DB /* Bond.cpp */,
+				957BB1FC21FDDA14001CD6DB /* Bond.hpp */,
+			);
+			path = QuantlibImplementation;
+			sourceTree = "<group>";
+		};
+		957BB1F221FD04FC001CD6DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				957BB1F321FD04FD001CD6DB /* libQuantLib.0.dylib */,
+				957BB1F521FD0671001CD6DB /* ql */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957BB1E721FD043B001CD6DB /* QuantlibImplementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957BB1EF21FD043B001CD6DB /* Build configuration list for PBXNativeTarget "QuantlibImplementation" */;
+			buildPhases = (
+				957BB1E421FD043B001CD6DB /* Sources */,
+				957BB1E521FD043B001CD6DB /* Frameworks */,
+				957BB1E621FD043B001CD6DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantlibImplementation;
+			productName = QuantlibImplementation;
+			productReference = 957BB1E821FD043B001CD6DB /* QuantlibImplementation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957BB1E021FD043B001CD6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Minh Thành Nguyễn";
+				TargetAttributes = {
+					957BB1E721FD043B001CD6DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 957BB1E321FD043B001CD6DB /* Build configuration list for PBXProject "QuantlibImplementation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 957BB1DF21FD043B001CD6DB;
+			productRefGroup = 957BB1E921FD043B001CD6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957BB1E721FD043B001CD6DB /* QuantlibImplementation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957BB1E421FD043B001CD6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957BB1FD21FDDA14001CD6DB /* Bond.cpp in Sources */,
+				957BB1FA21FD1113001CD6DB /* BrownianBridge.cpp in Sources */,
+				957BB1F721FD09AC001CD6DB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		957BB1ED21FD043B001CD6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		957BB1EE21FD043B001CD6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		957BB1F021FD043B001CD6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		957BB1F121FD043B001CD6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957BB1E321FD043B001CD6DB /* Build configuration list for PBXProject "QuantlibImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BB1ED21FD043B001CD6DB /* Debug */,
+				957BB1EE21FD043B001CD6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957BB1EF21FD043B001CD6DB /* Build configuration list for PBXNativeTarget "QuantlibImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BB1F021FD043B001CD6DB /* Debug */,
+				957BB1F121FD043B001CD6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 957BB1E021FD043B001CD6DB /* Project object */;
+}
